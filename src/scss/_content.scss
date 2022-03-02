@@ -1,0 +1,41 @@
+.content {
+  > * {
+    padding-left: 30px;
+  }
+  width: 85%;
+  min-height: 750px;
+  min-width: 600px;
+  background-color: $primary-color;
+
+  p {
+    width: 55%;
+    min-width: 550px;
+  }
+  p, li {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  li {
+    list-style-type: circle;
+  }
+  img, video {
+    height: 350px;
+    width: 550px;
+    margin-bottom: 30px;
+  }
+  a:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+    text-decoration-color: $secondary-color;
+  }
+  a:link {
+    color: $secondary-color;
+    text-decoration: underline;
+    text-decoration-color: $secondary-color;
+  }
+  a:visited {
+    color: $secondary-color;
+    text-decoration: underline;
+    text-decoration-color: $secondary-color;
+  }
+}
